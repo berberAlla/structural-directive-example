@@ -1,0 +1,8 @@
+<div *structural="let x of xes;" #ref="strctural" [structural]="100">
+  {{x}}
+</div>
+
+<div notStructural #ref1="notStructural" [notStructural]="100">
+  {{ref1.val}}
+</div>
+
